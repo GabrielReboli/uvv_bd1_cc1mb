@@ -36,7 +36,7 @@ Através do software [SQL Power Architect](https://bestofbi.com/products/sql-pow
 
 ## PostgreSQL
 
-Após a parte mais robusta do scrip gerada, foi necessário adptá-lo para a execução. Foi levado em consideração a criação de usúario, banco de dados, esquema, comentários, chaves, restrições de checagem e todos os detalhes que circundam as necessidades dos mesmo.
+Após a parte mais robusta do script gerada, foi necessário adptá-lo para a execução. Foi levado em consideração a criação de usúario, banco de dados, esquema, comentários, chaves, restrições de checagem e todos os detalhes que circundam as necessidades dos mesmo.
 
 
 
