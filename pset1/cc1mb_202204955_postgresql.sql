@@ -44,7 +44,7 @@ CREATE TABLE 		lojas.produtos (
 					detalhes                    BYTEA,
 					imagem                      BYTEA,
 					imagem_mime_type            VARCHAR(512),
-					imagem_arquivo				VARCHAR(512),
+					imagem_arquivo		    VARCHAR(512),
 					imagem_charset              VARCHAR(512),
 					imagem_ultima_atualizacao   DATE
                
@@ -52,7 +52,7 @@ CREATE TABLE 		lojas.produtos (
 );
 
 -- Incluir comentário nos metadados para descrever a tabela produtos
-COMMENT ON TABLE 	lojas.produtos                            	IS 'Armazena os produtos disponíveis.';
+COMMENT ON TABLE lojas.produtos IS 'Armazena os produtos disponíveis.';
 
 -- Incluir comentários nos metadados para descrever as colunas da tabela produtos
 COMMENT ON COLUMN 	lojas.produtos.produto_id                   IS 'Chave primária da tabela produtos. Identifica o produto.';
@@ -61,7 +61,7 @@ COMMENT ON COLUMN 	lojas.produtos.preco_unitario               IS 'Preço unitá
 COMMENT ON COLUMN 	lojas.produtos.detalhes                     IS 'Detalhes do produto em questão.';
 COMMENT ON COLUMN 	lojas.produtos.imagem                       IS 'Imagem do produto em questão.';
 COMMENT ON COLUMN 	lojas.produtos.imagem_mime_type             IS 'Formato de imagem da imagem do produto.';
-COMMENT ON COLUMN	lojas.produtos.imagem_arquivo				IS 'Coluna para armazenar o arquivo da imagem';
+COMMENT ON COLUMN	lojas.produtos.imagem_arquivo		    IS 'Coluna para armazenar o arquivo da imagem';
 COMMENT ON COLUMN 	lojas.produtos.imagem_charset               IS 'Conjunto de caracteres da da imagem.';
 COMMENT ON COLUMN 	lojas.produtos.imagem_ultima_atualizacao    IS 'Data da última atualização da imagem do produto.';
 
@@ -86,7 +86,7 @@ CREATE TABLE lojas.lojas (
 );
 
 -- Incluir comentário nos metadados para descrever a tabela lojas
-COMMENT ON TABLE  lojas.lojas                           IS 'Tabela que armazena as lojas a dispor.';
+COMMENT ON TABLE lojas.lojas                           	IS 'Tabela que armazena as lojas a dispor.';
 
 -- Incluir comentários nos metadados para descrever as colunas da tabela lojas
 COMMENT ON COLUMN lojas.lojas.loja_id                   IS 'Chava primária da tebela lojas. Identifica a loja.';
