@@ -18,7 +18,11 @@ A estrutura de diretórios é cuidadosamente organizada de acordo com os critér
 
 Além disso, o repositório oferece recursos adicionais, como controle de versão e histórico de alterações, para rastrear as modificações feitas nos diretórios e nos arquivos ao longo do tempo. Essa funcionalidade é especialmente útil para monitorar o progresso das atividades e manter um registro das diferentes versões dos trabalhos submetidos.
 
+# Arquivos do repositório
 
+- [pset1](pset1) : Arquivo que armazena o diretório do primeiro pset da disciplina
+
+- [README.md](README.md) : Arquivo responsável por documentar o repositório
 
 
 
