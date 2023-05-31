@@ -39,6 +39,19 @@ Através do software [SQL Power Architect](https://bestofbi.com/products/sql-pow
 Após a parte mais robusta do script gerada, foi necessário adptá-lo para a execução. Foi levado em consideração a criação de usúario, banco de dados, esquema, comentários, chaves, restrições de checagem e todos os detalhes que circundam as necessidades dos mesmo.
 
 
+# Arquivos do diretório
+
+- [cc1mb_202204955_postgresql.architect](cc1mb_202204955_postgresql.architect) : Arquivo do projeto lógico feito no Power Architect.
+
+- [cc1mb_202204955_postgresql.pdf](cc1mb_202204955_postgresql.pdf) : Arquivo em pdf do projeto lógico feito no Power Architect.
+
+- [cc1mb_202204955_postgresql.sql](cc1mb_202204955_postgresql.sql) : Arquivo com o script global do banco de dados SQL.
+
+- [README.md](README.md) : Arquivo responsável por documentar este diretório.
+
+
+
+
 
 # Conclusão
 
